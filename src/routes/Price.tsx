@@ -24,7 +24,7 @@ function Price({ price, percent24h, percent30d }: PriceProps) {
     percent30d > 0 ? setPercentColor30d(true) : setPercentColor30d(false);
   },[percent24h,percent30d])
 
-  return <div>
+  return <div> 
     <PriceDiv>
       Price : $ {price.toFixed(3)}
     </PriceDiv>
