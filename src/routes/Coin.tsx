@@ -187,7 +187,7 @@ function Coin() {
   const loading = infoLoading || tickersLoading;
 
   const navi = useNavigate();
-  function home(){
+  function home() {
     navi("/");
   }
 
@@ -246,7 +246,14 @@ function Coin() {
 
           <Routes>
             <Route path="/chart" element={<Chart coinId={coinId as string} />} />
-            <Route path="/price" element={<Price price={tickersData?.quotes.USD.price as number}/>} />
+            <Route path="/price" element={
+              <Price
+                price={tickersData?.quotes.USD.price as number}
+                percent24h={tickersData?.quotes.USD.percent_change_24h as number}
+                percent30d={tickersData?.quotes.USD.percent_change_30d as number}
+              />
+            }
+            />
           </ Routes>
         </>
       )}
