@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/thejam2-thejam2.github.io/static/js/main.bbee34d2.js",
+    "main.js": "/thejam2-thejam2.github.io/static/js/main.b544b8a3.js",
     "index.html": "/thejam2-thejam2.github.io/index.html",
-    "main.bbee34d2.js.map": "/thejam2-thejam2.github.io/static/js/main.bbee34d2.js.map"
+    "main.b544b8a3.js.map": "/thejam2-thejam2.github.io/static/js/main.b544b8a3.js.map"
   },
   "entrypoints": [
-    "static/js/main.bbee34d2.js"
+    "static/js/main.b544b8a3.js"
   ]
 }
