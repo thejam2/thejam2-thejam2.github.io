@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/thejam2/animation_practice.git/static/js/main.e757da96.js",
-    "index.html": "/thejam2/animation_practice.git/index.html",
-    "main.e757da96.js.map": "/thejam2/animation_practice.git/static/js/main.e757da96.js.map"
+    "main.js": "/thejam2-thejam2.github.io/static/js/main.bbee34d2.js",
+    "index.html": "/thejam2-thejam2.github.io/index.html",
+    "main.bbee34d2.js.map": "/thejam2-thejam2.github.io/static/js/main.bbee34d2.js.map"
   },
   "entrypoints": [
-    "static/js/main.e757da96.js"
+    "static/js/main.bbee34d2.js"
   ]
 }
